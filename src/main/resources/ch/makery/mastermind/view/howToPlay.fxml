@@ -34,7 +34,22 @@
             <Font name="Arial Black" size="19.0" />
          </font>
       </Text>
-      <Text fill="#fcfafa" layoutX="131.0" layoutY="315.0" stroke="BLACK" strokeType="OUTSIDE" text="4. After the 10 attempts, the answer will be shown">
+      <Text layoutX="149.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. After you placed 4 pegs and press Check, the Black pegs and White pegs will appear at the side " textAlignment="CENTER" wrappingWidth="503.69140625">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. The red pegs indicate the number of pegs of the right color and in the right position" textAlignment="CENTER" wrappingWidth="454.13330078125">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="123.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. The white pegs indicate the pegs of the right color but in the wrong position" textAlignment="CENTER" wrappingWidth="531.1845703125">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#fcfafa" layoutX="98.0" layoutY="462.0" stroke="BLACK" strokeType="OUTSIDE" text="7. After the 10 attempts, the answer will be shown">
          <font>
             <Font name="Arial Black" size="21.0" />
          </font></Text>
