@@ -10,6 +10,17 @@ import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.media.{Media, MediaPlayer}
 
 @sfxml
-class gameController() {
-    
+class gameController(
+    gameBackground: ImageView
+) {
+
+    gameBackground.image = new Image("file:resources/images/asset.png")
+
+    def goMenu(action: ActionEvent): Unit = {
+        MainApp.showMainMenu()
+    }
+
+    def quitGame(action: ActionEvent): Unit = {
+        System.exit(0)
+    }
 }
