@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.mastermind.view.WinController">
+   <children>
+      <Text layoutX="169.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOU WON!!" wrappingWidth="200.07958984375">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="homeButton" layoutX="130.0" layoutY="246.0" mnemonicParsing="false" onAction="#goHome" text="HOME">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="296.0" layoutY="245.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="44.0" prefWidth="103.0" text="EXIT">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Circle fx:id="answerCircle1" fill="WHITE" layoutX="170.0" layoutY="144.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="answerCircle2" fill="WHITE" layoutX="227.0" layoutY="144.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="answerCircle3" fill="WHITE" layoutX="290.0" layoutY="144.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="answerCircle4" fill="WHITE" layoutX="352.0" layoutY="144.0" radius="21.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

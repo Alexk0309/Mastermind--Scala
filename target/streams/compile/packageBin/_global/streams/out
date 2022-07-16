@@ -18,6 +18,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$$anon$1$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$$anon$5$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$$anon$5$$anon$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$$anon$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$$anon$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\MainApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\MainApp$delayedInit$body.class[0m
@@ -28,6 +36,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\model[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\model\Peg.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\model\Peg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\model\Row.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\model\Row.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\game.fxml[0m
@@ -42,6 +52,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\howToPlayController$Controller.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\howToPlayController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\howToPlayController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\Lose.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\Lose.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\LoseController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\LoseController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\LoseController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\LoseController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\mainMenu.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\mainMenu.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\mainMenuController$Controller.class[0m
@@ -50,4 +66,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\mainMenuController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\RootLayout.fxml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\RootLayout.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\Win.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\Win.fxml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\WinController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\WinController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ch\makery\mastermind\view\WinController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes\ch\makery\mastermind\view\WinController.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

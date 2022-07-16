@@ -1,27 +1,16 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:12:2: exception during macro expansion: [0m
-[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.TypecheckException: not found: type Button[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$3(Typers.scala:44)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$2(Typers.scala:38)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.doTypecheck$1(Typers.scala:37)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$7(Typers.scala:50)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Trees.wrappingIntoTerm(Trees.scala:1756)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Trees.wrappingIntoTerm$(Trees.scala:1753)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.SymbolTable.wrappingIntoTerm(SymbolTable.scala:28)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck(Typers.scala:50)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck$(Typers.scala:32)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.toType$1(sfxmlMacro.scala:53)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:97)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:290)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
-[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
-[0m[[0m[31merror[0m] [0m[0m ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:15:17: not found: type Button[0m
-[0m[[0m[31merror[0m] [0m[0m    homeButton: Button,[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:16:17: not found: type Button[0m
-[0m[[0m[31merror[0m] [0m[0m    quitButton: Button[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:246:40: object color is not a member of package scalafx.scene.paint[0m
+[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Green[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:249:40: object color is not a member of package scalafx.scene.paint[0m
+[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Yellow[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:252:40: object color is not a member of package scalafx.scene.paint[0m
+[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Orange[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:255:40: object color is not a member of package scalafx.scene.paint[0m
+[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Purple[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:257:36: object color is not a member of package scalafx.scene.paint[0m
+[0m[[0m[31merror[0m] [0m[0m        return scalafx.scene.paint.color.White[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

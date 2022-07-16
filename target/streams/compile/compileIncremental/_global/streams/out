@@ -1,6 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 12 products, 5 sources, 4 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/ch/makery/mastermind/view/howToPlayController.scala, ${BASE}/src/main/scala/ch/makery/mastermind/model/Peg.scala, ${BASE}/src/main/scala/ch/makery/mastermind/MainApp.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/mainMenuController.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/gameController.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 21 products, 8 sources, 4 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/ch/makery/mastermind/model/Row.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/howToPlayController.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/WinController.scala, ${BASE}/src/main/scala/ch/makery/mastermind/model/Peg.scala, ${BASE}/src/main/scala/ch/makery/mastermind/MainApp.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/mainMenuController.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/gameController.scala, ${BASE}/src/main/scala/ch/makery/mastermind/view/LoseController.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

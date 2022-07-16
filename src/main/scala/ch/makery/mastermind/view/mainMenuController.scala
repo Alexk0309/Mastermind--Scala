@@ -1,7 +1,6 @@
 package ch.makery.mastermind.view
 
 import ch.makery.mastermind.MainApp
-//import ch.makery.mastermind.model.Peg
 import scalafxml.core.macros.sfxml
 import scalafx.Includes._
 import scalafx.event.ActionEvent
@@ -15,8 +14,6 @@ class mainMenuController(
     menuBG: ImageView
 ) {
 
-    
-    
     menuBG.image = new Image ("file:resources/images/homeBG.jpeg")
 
     def quitGame(action: ActionEvent): Unit = {

@@ -54,96 +54,150 @@
           </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="456.0" layoutY="309.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: orange;" text="Orange" textFill="WHITE" />
-      <Button layoutX="456.0" layoutY="252.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: yellow;" text="Yellow" />
-      <Button layoutX="456.0" layoutY="371.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: purple;" text="Purple" textFill="WHITE" />
-      <Button layoutX="456.0" layoutY="193.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: green;" text="Green" textFill="WHITE" />
-      <Button layoutX="456.0" layoutY="133.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: Blue;" text="Blue" textFill="WHITE" />
-      <Button layoutX="455.0" layoutY="76.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="75.0" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
-      <Button layoutX="456.0" layoutY="442.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="Clear" />
-      <Button layoutX="456.0" layoutY="507.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="Check" />
-      <AnchorPane fx:id="row1" layoutX="79.0" layoutY="519.0" prefHeight="40.0" prefWidth="315.0">
+      <Button fx:id="orangeButton" layoutX="456.0" layoutY="309.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: orange;" text="Orange" textFill="WHITE" />
+      <Button fx:id="yellowButton" layoutX="456.0" layoutY="252.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: yellow;" text="Yellow" />
+      <Button fx:id="purpleButton" layoutX="456.0" layoutY="371.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: purple;" text="Purple" textFill="WHITE" />
+      <Button fx:id="greenButton" layoutX="456.0" layoutY="193.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: green;" text="Green" textFill="WHITE" />
+      <Button fx:id="blueButton" layoutX="456.0" layoutY="133.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" style="-fx-background-color: Blue;" text="Blue" textFill="WHITE" />
+      <Button fx:id="redButton" layoutX="455.0" layoutY="76.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="75.0" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
+      <Button fx:id="clearButton" layoutX="456.0" layoutY="442.0" mnemonicParsing="false" onAction="#clear" prefHeight="31.0" prefWidth="75.0" text="Clear" />
+      <Button fx:id="checkButton" layoutX="456.0" layoutY="507.0" mnemonicParsing="false" onAction="#check" prefHeight="31.0" prefWidth="75.0" text="Check" />
+      <AnchorPane fx:id="row1" layoutX="79.0" layoutY="519.0" prefHeight="40.0" prefWidth="331.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg1" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg2" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg3" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg4" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="283.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c11" fill="#8d8d8d" layoutX="291.0" layoutY="15.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c12" fill="#8d8d8d" layoutX="307.0" layoutY="15.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c13" fill="#8d8d8d" layoutX="291.0" layoutY="29.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c14" fill="#8d8d8d" layoutX="307.0" layoutY="29.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row2" layoutX="78.0" layoutY="476.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row2" layoutX="78.0" layoutY="476.0" prefHeight="40.0" prefWidth="328.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg5" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg6" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg7" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg8" fill="WHITE" layoutX="233.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="285.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c21" fill="#8d8d8d" layoutX="293.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c22" fill="#8d8d8d" layoutX="309.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c23" fill="#8d8d8d" layoutX="293.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c24" fill="#8d8d8d" layoutX="309.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row3" layoutX="79.0" layoutY="429.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row3" layoutX="79.0" layoutY="429.0" prefHeight="40.0" prefWidth="320.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg9" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg10" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg11" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg12" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="284.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c31" fill="#8d8d8d" layoutX="292.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c32" fill="#8d8d8d" layoutX="308.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c33" fill="#8d8d8d" layoutX="292.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c34" fill="#8d8d8d" layoutX="308.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row4" layoutX="78.0" layoutY="382.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row4" layoutX="78.0" layoutY="382.0" prefHeight="40.0" prefWidth="326.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg13" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg14" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg15" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg16" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="286.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c41" fill="#8d8d8d" layoutX="294.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c42" fill="#8d8d8d" layoutX="310.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c43" fill="#8d8d8d" layoutX="294.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c44" fill="#8d8d8d" layoutX="310.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row5" layoutX="80.0" layoutY="331.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row5" layoutX="80.0" layoutY="331.0" prefHeight="40.0" prefWidth="328.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg17" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg18" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg19" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg20" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="284.0" layoutY="5.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c51" fill="#8d8d8d" layoutX="292.0" layoutY="15.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c52" fill="#8d8d8d" layoutX="308.0" layoutY="15.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c53" fill="#8d8d8d" layoutX="292.0" layoutY="29.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c54" fill="#8d8d8d" layoutX="308.0" layoutY="29.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row6" layoutX="80.0" layoutY="281.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row6" layoutX="80.0" layoutY="281.0" prefHeight="40.0" prefWidth="323.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg21" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg22" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg23" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg24" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="284.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c61" fill="#8d8d8d" layoutX="292.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c62" fill="#8d8d8d" layoutX="308.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c63" fill="#8d8d8d" layoutX="292.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c64" fill="#8d8d8d" layoutX="308.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row7" layoutX="79.0" layoutY="235.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row7" layoutX="79.0" layoutY="235.0" prefHeight="40.0" prefWidth="328.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg25" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg26" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg27" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg28" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="285.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c71" fill="#8d8d8d" layoutX="293.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c72" fill="#8d8d8d" layoutX="309.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c73" fill="#8d8d8d" layoutX="293.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c74" fill="#8d8d8d" layoutX="309.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row8" layoutX="79.0" layoutY="188.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row8" layoutX="79.0" layoutY="188.0" prefHeight="40.0" prefWidth="328.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg29" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg30" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg31" fill="WHITE" layoutX="184.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg32" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="285.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c81" fill="#8d8d8d" layoutX="293.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c82" fill="#8d8d8d" layoutX="309.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c83" fill="#8d8d8d" layoutX="293.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c84" fill="#8d8d8d" layoutX="309.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row9" layoutX="81.0" layoutY="143.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row9" layoutX="81.0" layoutY="143.0" prefHeight="40.0" prefWidth="330.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg33" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg34" fill="WHITE" layoutX="136.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg35" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg36" fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="283.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c91" fill="#8d8d8d" layoutX="291.0" layoutY="13.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c92" fill="#8d8d8d" layoutX="307.0" layoutY="13.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c93" fill="#8d8d8d" layoutX="291.0" layoutY="27.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c94" fill="#8d8d8d" layoutX="307.0" layoutY="27.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="row10" layoutX="79.0" layoutY="99.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="row10" layoutX="79.0" layoutY="99.0" prefHeight="40.0" prefWidth="332.0">
          <children>
-            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
-            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg37" fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg38" fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg39" fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="peg40" fill="WHITE" layoutX="233.0" layoutY="18.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8a8484" height="32.0" layoutX="285.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+            <Circle fx:id="c101" fill="#8d8d8d" layoutX="293.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c102" fill="#8d8d8d" layoutX="309.0" layoutY="14.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c103" fill="#8d8d8d" layoutX="293.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="c104" fill="#8d8d8d" layoutX="309.0" layoutY="28.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="80.0" layoutY="56.0" prefHeight="40.0" prefWidth="315.0">
+      <AnchorPane fx:id="rowAns" layoutX="80.0" layoutY="56.0" prefHeight="40.0" prefWidth="266.0">
          <children>
+            <Circle fx:id="pegans1" fill="#a4a4a4" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="pegans2" fill="#a4a4a4" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="pegans3" fill="#a4a4a4" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="pegans4" fill="#a4a4a4" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
             <Circle fill="#a4a4a4" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
             <Circle fill="#a4a4a4" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
             <Circle fill="#a4a4a4" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
