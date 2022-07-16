@@ -36,12 +36,14 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to left, pink, brown);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.mastermind.view.gameController">
    <children>
-      <ImageView fx:id="gameBackground" fitHeight="565.0" fitWidth="584.0" layoutX="8.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ab5c2c96" height="514.0" layoutX="428.0" layoutY="52.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
       <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="600.0">
         <menus>
           <Menu mnemonicParsing="false" text="Menu">
@@ -60,5 +62,104 @@
       <Button layoutX="455.0" layoutY="76.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="75.0" style="-fx-background-color: red;" text="Red" textFill="WHITE" />
       <Button layoutX="456.0" layoutY="442.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="Clear" />
       <Button layoutX="456.0" layoutY="507.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="75.0" text="Check" />
+      <AnchorPane fx:id="row1" layoutX="79.0" layoutY="519.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row2" layoutX="78.0" layoutY="476.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row3" layoutX="79.0" layoutY="429.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row4" layoutX="78.0" layoutY="382.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row5" layoutX="80.0" layoutY="331.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row6" layoutX="80.0" layoutY="281.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row7" layoutX="79.0" layoutY="235.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row8" layoutX="79.0" layoutY="188.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row9" layoutX="81.0" layoutY="143.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="row10" layoutX="79.0" layoutY="99.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="WHITE" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="80.0" layoutY="56.0" prefHeight="40.0" prefWidth="315.0">
+         <children>
+            <Circle fill="#a4a4a4" layoutX="84.0" layoutY="20.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a4a4a4" layoutX="137.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a4a4a4" layoutX="184.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#a4a4a4" layoutX="230.0" layoutY="19.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="41.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Answer" />
+      <Text fill="WHITE" layoutX="51.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+      <Text fill="WHITE" layoutX="55.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" />
+      <Text fill="WHITE" layoutX="55.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" />
+      <Text fill="WHITE" layoutX="56.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" />
+      <Text fill="WHITE" layoutX="55.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+      <Text fill="WHITE" layoutX="55.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <Text fill="WHITE" layoutX="55.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+      <Text fill="WHITE" layoutX="56.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+      <Text fill="WHITE" layoutX="56.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text fill="WHITE" layoutX="56.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
    </children>
 </AnchorPane>

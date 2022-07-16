@@ -6,15 +6,16 @@ import scalafx.Includes._
 import scalafx.event.ActionEvent
 import scalafx.scene.control.Alert.AlertType
 import scala.util.{Failure, Success}
+import scalafx.scene.shape.{Rectangle, Circle}
 import scalafx.scene.image.{Image, ImageView}
 import scalafx.scene.media.{Media, MediaPlayer}
+import scalafx.scene.layout.AnchorPane
+
 
 @sfxml
-class gameController(
-    gameBackground: ImageView
-) {
+class gameController() {
 
-    gameBackground.image = new Image("file:resources/images/asset.png")
+    
 
     def goMenu(action: ActionEvent): Unit = {
         MainApp.showMainMenu()
