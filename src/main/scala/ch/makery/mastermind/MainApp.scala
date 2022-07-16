@@ -43,5 +43,13 @@ object MainApp extends JFXApp {
         this.roots.setCenter(roots)
     }
 
+    def startGame(): Unit = {
+        val resource = getClass.getResource("view/game.fxml")
+        val loader = new FXMLLoader(resource, NoDependencyResolver)
+        loader.load()
+        val roots = loader.getRoot[jfxs.layout.AnchorPane]
+        this.roots.setCenter(roots)
+    }
+
     showMainMenu()
 }

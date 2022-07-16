@@ -23,5 +23,9 @@ class mainMenuController(
     def howToPlay(action: ActionEvent): Unit = {
         MainApp.showHowToPlay()
     }
+
+    def playGame(action: ActionEvent): Unit = {
+        MainApp.startGame()
+    }
     
 }

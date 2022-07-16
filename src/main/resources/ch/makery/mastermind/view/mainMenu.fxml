@@ -14,7 +14,7 @@
             <Font name="Serif Bold" size="50.0" />
          </font>
       </Text>
-      <Button fx:id="playButton" layoutX="183.0" layoutY="447.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="117.0" text="PLAY">
+      <Button fx:id="playButton" layoutX="183.0" layoutY="447.0" mnemonicParsing="false" onAction="#playGame" prefHeight="55.0" prefWidth="117.0" text="PLAY">
          <font>
             <Font size="20.0" />
          </font>
