@@ -11,7 +11,7 @@ import scalafx.scene.media.{Media, MediaPlayer}
 
 @sfxml
 class howToPlayController(
-    background: ImageView
+   private val background: ImageView
 ) {
     
     background.image = new Image ("file:resources/images/homeBG.jpeg")
