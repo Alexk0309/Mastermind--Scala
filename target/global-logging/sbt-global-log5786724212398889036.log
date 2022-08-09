@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(34997046-eec6-4315-bbe0-bad5a630a836), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources to C:\Users\msi\Documents\GitHub\Mastermind-Scala\target\scala-2.12\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\model\Row.scala:3:35: imported `Peg' is permanently hidden by definition of class Peg in package model[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport ch.makery.mastermind.model.Peg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 16.0.0-R23)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were four deprecation warnings (since 8.0.60-R10)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 5 deprecation warnings in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 21 s, completed Aug 9, 2022, 3:01:48 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

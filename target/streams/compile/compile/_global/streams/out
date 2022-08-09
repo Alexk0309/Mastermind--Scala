@@ -1,16 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:246:40: object color is not a member of package scalafx.scene.paint[0m
-[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Green[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:249:40: object color is not a member of package scalafx.scene.paint[0m
-[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Yellow[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:252:40: object color is not a member of package scalafx.scene.paint[0m
-[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Orange[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:255:40: object color is not a member of package scalafx.scene.paint[0m
-[0m[[0m[31merror[0m] [0m[0m            return scalafx.scene.paint.color.Purple[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\view\gameController.scala:257:36: object color is not a member of package scalafx.scene.paint[0m
-[0m[[0m[31merror[0m] [0m[0m        return scalafx.scene.paint.color.White[0m
-[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\msi\Documents\GitHub\Mastermind-Scala\src\main\scala\ch\makery\mastermind\model\Row.scala:3:35: imported `Peg' is permanently hidden by definition of class Peg in package model[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport ch.makery.mastermind.model.Peg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 16.0.0-R23)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were four deprecation warnings (since 8.0.60-R10)[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 5 deprecation warnings in total; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
